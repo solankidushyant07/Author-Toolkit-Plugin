@@ -38,10 +38,6 @@ export class AuthorToolkitSettingTab extends PluginSettingTab {
 		containerEl.empty();
 
 		new Setting(containerEl)
-	.setName("General")
-	.setHeading();
-
-		new Setting(containerEl)
 			.setName("Templates Folder Path")
 			.setDesc(
 				"The default folder where your templates are stored. (e.g., Templates/Characters)"
