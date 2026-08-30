@@ -38,8 +38,8 @@ export class AuthorToolkitSettingTab extends PluginSettingTab {
 		containerEl.empty();
 
 		new Setting(containerEl)
-			.setName("Author Toolkit")
-			.setHeading();
+	.setName("General")
+	.setHeading();
 
 		new Setting(containerEl)
 			.setName("Templates Folder Path")
