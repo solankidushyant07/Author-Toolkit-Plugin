@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "author-toolkit",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Tools for authors and worldbuilders.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {

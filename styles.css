@@ -1,8 +1,318 @@
-/*
+/* ============================================================
+   AUTHOR TOOLKIT
+   Consolidated UI Styles
+   ============================================================ */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
 
-If your plugin does not need CSS, delete this file.
+/* ============================================================
+   ADD NOTES LINKS MODAL
+   Source: src/modals/AddNotesLinksModal.ts
+   ============================================================ */
 
-*/
+.at-add-links-content {
+	max-height: 55vh;
+	overflow-y: auto;
+}
+
+
+/* ============================================================
+   BROWSER MODAL
+   Source: src/modals/BrowserModal.ts
+   ============================================================ */
+
+.at-browser-content {
+	max-height: 75vh;
+	overflow-y: auto;
+}
+
+.at-browser-breadcrumbs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 15px;
+	font-size: 1.1em;
+	align-items: center;
+	padding: 10px;
+	background: var(--background-secondary);
+	border-radius: var(--radius-s);
+}
+
+.at-browser-breadcrumb {
+	cursor: pointer;
+	color: var(--text-accent);
+	font-weight: bold;
+	padding: 2px 6px;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+.at-browser-breadcrumb:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.at-browser-breadcrumb-separator {
+	color: var(--text-muted);
+}
+
+.at-browser-path-input {
+	width: 100%;
+}
+
+.at-browser-list {
+	max-height: 40vh;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.at-browser-empty {
+	padding: 10px;
+	color: var(--text-muted);
+	text-align: center;
+}
+
+.at-browser-item {
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-bottom: 1px solid var(--background-modifier-border-alt);
+	background-color: transparent;
+}
+
+.at-browser-item:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.at-browser-item-icon {
+	font-size: 1.2em;
+}
+
+.at-browser-folder-name {
+	font-weight: 500;
+}
+
+.at-browser-file-name {
+	color: var(--text-normal);
+}
+
+
+/* ============================================================
+   CREATE NOTES MODAL
+   Source: src/modals/CreateNotesModal.ts
+   ============================================================ */
+
+.at-create-notes-content {
+	max-height: 75vh;
+	overflow-y: auto;
+}
+
+.at-count-setting-control {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.at-count-input {
+	width: 60px;
+	text-align: center;
+}
+
+.at-names-setting {
+	align-items: start;
+}
+
+.at-names-textarea {
+	width: 100%;
+	height: 160px;
+}
+
+.at-validation-summary {
+	padding: 12px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.at-validation-list {
+	margin: 8px 0 0 0;
+	padding-left: 20px;
+	color: var(--text-muted);
+	font-size: 0.95em;
+}
+
+.at-validation-invalid {
+	color: var(--text-error);
+	font-weight: bold;
+}
+
+.at-too-many-names-buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.at-creation-result-list {
+	max-height: 40vh;
+	overflow-y: auto;
+	background: var(--background-secondary);
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.at-creation-result-list-items {
+	margin-top: 8px;
+}
+
+.at-creation-result-item {
+	margin-bottom: 8px;
+}
+
+.at-creation-result-reason {
+	color: var(--text-error);
+	font-size: 0.9em;
+	margin-left: 12px;
+}
+
+
+/* ============================================================
+   CREATE FOLDERS MODAL
+   Source: src/modals/CreateFoldersModal.ts
+   ============================================================ */
+
+.at-create-folders-content {
+	max-height: 75vh;
+	overflow-y: auto;
+}
+
+.at-folder-count-setting-control {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.at-folder-count-input {
+	width: 60px;
+	text-align: center;
+}
+
+.at-folder-names-setting {
+	align-items: start;
+}
+
+.at-folder-names-textarea {
+	width: 100%;
+	height: 160px;
+}
+
+.at-folder-validation-summary {
+	padding: 12px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.at-folder-validation-list {
+	margin: 8px 0 0 0;
+	padding-left: 20px;
+	color: var(--text-muted);
+	font-size: 0.95em;
+}
+
+.at-folder-validation-invalid {
+	color: var(--text-error);
+	font-weight: bold;
+}
+
+.at-folder-too-many-names-buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.at-folder-creation-result-list {
+	max-height: 40vh;
+	overflow-y: auto;
+	background: var(--background-secondary);
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.at-folder-creation-result-list-items {
+	margin-top: 8px;
+}
+
+.at-folder-creation-result-item {
+	margin-bottom: 8px;
+}
+
+.at-folder-creation-result-reason {
+	color: var(--text-error);
+	font-size: 0.9em;
+	margin-left: 12px;
+}
+
+
+/* ============================================================
+   CHEATSHEET MODAL
+   Source: src/modals/CheatsheetModal.ts
+   ============================================================ */
+
+.at-cheatsheet-description {
+	color: var(--text-muted);
+	margin-bottom: 20px;
+}
+
+.at-cheatsheet-card {
+	margin-bottom: 12px;
+	padding: 12px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.at-cheatsheet-code {
+	cursor: pointer;
+	font-size: 1.1em;
+	color: var(--text-accent);
+	padding: 4px 8px;
+	display: inline-block;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	background: var(--background-primary);
+}
+
+.at-cheatsheet-code:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.at-cheatsheet-code-copied {
+	color: var(--text-success);
+}
+
+.at-cheatsheet-item-description {
+	color: var(--text-normal);
+	font-size: 0.95em;
+	line-height: 1.4;
+}
+
+
+/* ============================================================
+   SHARED MODAL / RESULT STYLES
+   ============================================================ */
+
+.at-modal-scroll-75 {
+	max-height: 75vh;
+	overflow-y: auto;
+}
+
+.at-modal-scroll-40 {
+	max-height: 40vh;
+	overflow-y: auto;
+}
