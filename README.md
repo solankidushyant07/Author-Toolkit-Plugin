@@ -376,3 +376,13 @@ If you find a bug, please include as much information as possible, such as:
 If there's a feature you'd like to see in Author Toolkit, let me know as well. User feedback helps determine which features are worth adding and improving.
 
 **Discord:** `coconutshell0610`
+
+## Support My Work ☕
+
+I make software and tools that I find useful and hope others can enjoy too.
+
+If something I've made has been useful to you, you can support my work here:
+
+**[☕ Buy Me a Coffee](https://buymeacoffee.com/dushyantsolanki)**
+
+Every bit of support is genuinely appreciated. Thank you for being here!
